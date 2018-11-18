@@ -18,11 +18,12 @@ function destructivelyRemoveFirstDriver() {
 }
 
 function appendDriver(name) {
-  new_arr = drivers
-  // for (i = 0; i < drivers.length; i++) {
-  //   new_arr.push(drivers[i])
-  // }
-  return new_arr.push(name)
+  var new_array = [];
+  for (var i = 0; i < array.length; i++) {
+    var ele = array[i];
+    new_array.push(ele);
+  }
+  return new_array.push(element);
   
 }
 
