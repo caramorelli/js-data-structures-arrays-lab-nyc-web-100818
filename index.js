@@ -23,6 +23,7 @@ function appendDriver(name) {
     arrayappendDriver.push(drivers[i]);
     // arrayappendDriver.push(name);
   }
+  arrayappendDriver.push(name);
   return arrayappendDriver;
 }
 
