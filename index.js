@@ -22,7 +22,7 @@ function appendDriver(name) {
   for (var i = 0; i < drivers.length; i++) {
     arrayappendDriver.push(drivers[i]);
   }
-  return arrayappendDriver.push(name);
+  console.log(arrayappendDriver.push(name));
 }
 
 function prependDriver(name) {
