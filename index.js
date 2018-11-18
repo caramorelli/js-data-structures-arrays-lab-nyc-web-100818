@@ -26,12 +26,16 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  return drivers.unshift(name)
+  var arrayappendDriver = [];
+  for (var i = 0; i < drivers.length; i++) {
+    arrayappendDriver.push(drivers[i]);
+  }
+  return arrayappendDriver.push(name);
 }
 
 function removeLastDriver() {
   var arrayappendDriver = [];
-  for (var i = 0; i < (drivers.length); i++) {
+  for (var i = 0; i < (drivers.length - 1); i++) {
     arrayappendDriver.push(drivers[i]);
   }
   return arrayappendDriver;
