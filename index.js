@@ -1,5 +1,5 @@
 // Write your solution here!
-var drivers = []
+var drivers = ["Milo", "Otis", "Garfield"]
 
 function appendDriver() {
   
