@@ -23,17 +23,16 @@ function appendDriver(name) {
     arrayappendDriver.push(drivers[i]);
   }
   return arrayappendDriver.push(name);
-  
 }
 
-// function prependDriver(name) {
-//   return drivers.unshift(name)
-// }
+function prependDriver(name) {
+  return drivers.unshift(name)
+}
 
-// function removeLastDriver() {
-//   return drivers.pop()
-// }
+function removeLastDriver() {
+  return drivers.pop()
+}
 
-// function removeFirstDriver() {
-//   return drivers.shift()
-// }
+function removeFirstDriver() {
+  return drivers.shift()
+}
