@@ -10,8 +10,7 @@ function destructivelyPrependDriver(name) {
 }
 
 function destructivelyRemoveFirstDriver() {
-  drivers = drivers.shift;
-  // return drivers;
+  return drivers.shift
 }
 
 function appendDriver(name) {
