@@ -39,7 +39,7 @@ function removeLastDriver() {
 
 function removeFirstDriver() {
   var arrayappendDriver = [];
-  for (var i = 0; i < drivers.length; i++) {
+  for (var i = 1; i < drivers.length; i++) {
     arrayappendDriver.push(drivers[i]);
   }
   return arrayappendDriver.push(name);
