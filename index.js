@@ -42,5 +42,5 @@ function removeFirstDriver() {
   for (var i = 1; i < drivers.length; i++) {
     arrayappendDriver.push(drivers[i]);
   }
-  return arrayappendDriver.push(name);
+  return arrayappendDriver.push();
 }
