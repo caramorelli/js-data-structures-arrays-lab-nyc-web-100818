@@ -30,9 +30,17 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-  return drivers.pop()
+   var arrayappendDriver = [];
+  for (var i = 0; i < drivers.length; i++) {
+    arrayappendDriver.push(drivers[i]);
+  }
+  return arrayappendDriver.push(name);
 }
 
 function removeFirstDriver() {
-  return drivers.shift()
+  var new_arr = [];
+  for (var i = 0; i < drivers.length; i++) {
+    arrayappendDriver.push(drivers[i]);
+  }
+  return arrayappendDriver.push(name);
 }
