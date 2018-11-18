@@ -31,7 +31,7 @@ function prependDriver(name) {
 
 function removeLastDriver() {
   var arrayappendDriver = [];
-  for (var i = 0; i < drivers.length; i++) {
+  for (var i = 0; i < (drivers.length); i++) {
     arrayappendDriver.push(drivers[i]);
   }
   return arrayappendDriver;
