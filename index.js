@@ -6,7 +6,7 @@ function appendDriver(name) {
 }
 
 function destructivelyAppendDriver(name) {
-  drivers = drivers.push(name)
+  return drivers.push(name);
 }
 
 function destructivelyRemoveFirstDriver() {
