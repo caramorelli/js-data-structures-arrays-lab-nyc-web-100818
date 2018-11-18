@@ -5,5 +5,6 @@ function appendDriver() {
   
 }
 
-function destructivelyAppendDrivertest(name)
-end 
+function destructivelyAppendDrivertest(name) {
+  
+}
