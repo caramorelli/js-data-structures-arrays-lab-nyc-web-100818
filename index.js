@@ -38,7 +38,7 @@ function removeLastDriver() {
 }
 
 function removeFirstDriver() {
-  var new_arr = [];
+  var arrayappendDriver = [];
   for (var i = 0; i < drivers.length; i++) {
     arrayappendDriver.push(drivers[i]);
   }
