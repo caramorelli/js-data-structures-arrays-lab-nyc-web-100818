@@ -26,7 +26,7 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  var arrayappendDriver = [];
+  var arrayappendDriver = [name];
   for (var i = 0; i < drivers.length; i++) {
     arrayappendDriver.push(drivers[i]);
   }
