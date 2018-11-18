@@ -17,18 +17,18 @@ function destructivelyRemoveFirstDriver() {
   return drivers.shift()
 }
 
-function destructivelyAppendDriver(name) {
+function appendDriver(name) {
   return drivers.push(name);
 }
 
-function destructivelyPrependDriver(name) {
+function prependDriver(name) {
   return drivers.unshift(name)
 }
 
-function destructivelyRemoveLastDriver() {
+function removeLastDriver() {
   return drivers.pop()
 }
 
-function RemoveFirstDriver() {
+function removeFirstDriver() {
   return drivers.shift()
 }
