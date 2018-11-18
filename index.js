@@ -22,6 +22,7 @@ function appendDriver(name) {
   // for (i = 0; i < drivers.length; i++) {
   //   new_arr.push(drivers[i])
   // }
+  new_arr.push(name)
   
 }
 
