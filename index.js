@@ -19,7 +19,7 @@ function destructivelyRemoveFirstDriver() {
 
 function appendDriver(name) {
   var arrayappendDriver = [];
-  for (var i = 0; i < array.length; i++) {
+  for (var i = 0; i < drivers.length; i++) {
     var ele = drivers[i];
     arrayappendDriver.push(ele);
   }
